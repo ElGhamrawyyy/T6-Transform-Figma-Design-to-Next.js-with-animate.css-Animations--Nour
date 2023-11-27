@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'animate.css';
+
+body {
+    font-family: 'Sora', sans-serif;
+    color: #200961;
+}
+
+.w-70p {
+    width: 70%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #200961;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #200961;
+}
+
+input {
+    width: 500px;
+}
+
+p {
+    color: #200961B2;
+    font-size: 15px;
+}
+
+hr {
+    background: linear-gradient(180deg, #FFF3DA 0%, rgba(250, 116, 54, 0) 100%);
+    height: 14px;
+    width: 100%;
+}
+
+hr.orange {
+    background: linear-gradient(180deg, #FA7436 0%, rgba(250, 116, 54, 0) 100%);
+}
+
+.bg-orange {
+    background: #FA7436;
+}
+
+.border-orange {
+    border: 1px solid #FA7436;
+}
+
+button img {
+    display: inline;
+}
+
+nav {
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero {
+    height: 650px;
+    background: url("/1.jpeg") no-repeat center center / cover;
+}
+
+.hero .text {
+    width: 100%;
+    height: 100%;
+    background: #FA743659;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.hero h3 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.hero p {
+    color: #fff;
+    font-size: 25px;
+}
+
+.how-to img {
+    display: inline;
+    margin-right: 15px;
+}
+
+.how-to p {
+    font-size: 14px;
+    color: #200961;
+    margin-bottom: 25px;
+}
+
+.step h4 {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.step p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.step.orange h4 {
+    color: #200961;
+}
+
+.step.light {
+    background: #FFF3DA;
+}
+
+.step.orange {
+    background: #FA7436;
+}
+
+.slider {
+    height: 600px;
+    background: url('/2.png') no-repeat center center / cover;
+}
+
+.reviews {
+    background: #FFF3DA;
+}
+
+.reviews h3 {
+    font-size: 30px;
+}
+
+.reviews .rate {
+    background: #EEA734;
+    font-size: 10px;
+    text-align: center;
+    padding: 2px 7px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    border-radius: 3px;
+}
+
+.review-item {
+    border: 6px solid #FA7436;
+    border-radius: 8px;
+}
+
+.review-item .info {
+    background: #fff;
+    position: relative;
+    height: 100px;
+}
+
+.review-item .info h4 {
+    font-size: 14px
+}
+
+.review-item .info p {
+    font-size: 13px
+}
+
+.subscribe {
+    background: #FFF3DA;
+}
+
+footer {
+    color: #200961;
+    font-weight: 500;
+}
+
+/*Mobile Screen*/
+@media only screen and (max-width: 600px) {
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    input {
+        width: 200px;
+    }
+
+    .hero h3 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    footer ul {
+        margin-bottom: 25px;
+    }
+
+    .copyrights {
+        margin-bottom: 25px;
+    }
+    .w-70p{
+        width:100%;
+    }
+}
